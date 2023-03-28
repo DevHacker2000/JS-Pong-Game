@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#score-info {
+    font-size: 40px;
+}
+
+#restart-btn {
+    padding: 6px 12px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    background-color: lime;
+    color: white;
+    font-size: 25px;
+}
